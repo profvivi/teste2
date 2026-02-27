@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,12 +7,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #2a9d8f;
     color: white;
     padding: 1rem 0;
 }
@@ -48,6 +48,8 @@ section {
     padding: 2rem 0;
     background-color: white;
     margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
@@ -55,13 +57,9 @@ section h2 {
     color: #333;
 }
 
-section p, section ul {
+section p {
     font-size: 1rem;
     color: #555;
-}
-
-section ul {
-    margin-left: 20px;
 }
 
 footer {
@@ -72,7 +70,7 @@ footer {
 }
 
 footer a {
-    color: #4CAF50;
+    color: #2a9d8f;
     text-decoration: none;
 }
 
